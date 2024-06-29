@@ -1,0 +1,229 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;   
+}
+body{
+    background-color:rgb(7, 7, 7);
+    color:white;
+}
+nav{
+    background-color: rgb(18, 14, 14);
+    color:white;
+    padding-top:25px;
+    padding-bottom: 25px;
+    h1{
+        display:inline;
+        padding-left: 40px;
+        font-size: 25px;
+        font-weight: bold;  
+    }
+}
+ul{
+    padding-top: 20px;
+    padding-bottom: 30px;
+    padding-left:680px ;
+    
+}
+
+ul,li,p{
+   display: inline;
+}
+li{
+    padding-left: 18px;
+}
+
+a{
+    color:white;
+    text-decoration: none;
+}
+a:hover{
+    
+    color: rgb(207, 71, 144);
+}
+
+.detail{
+    margin-left:90px;
+    margin-top:0%;
+    padding-top:50px;
+    padding-left:80px;
+    position: relative;
+    top: 60px;
+    h1{
+        font-size: 250%;
+    }
+    
+    p{
+        font-size: 100%;
+    }
+    button{
+        color:palevioletred;
+        margin-top: 30px;
+        padding: 6px;
+    }
+    
+}
+#header{
+    position:relative;
+    left:850px;
+    bottom:130px;
+    padding-top: 20px;
+}
+.top{
+    background-color:rgb(7, 7, 7);
+    color:white;
+    margin-bottom: 80px;
+}
+.skills{
+    background-color:rgb(14, 14, 14);
+    color: rgb(248, 244, 244);
+    position:relative;
+    h1{
+        color:rgba(204, 68, 113, 0.776);
+        position: relative;
+        bottom: 80px;
+        padding-top: 50px;
+        padding-left: 40px;
+    }
+    p{
+        position:absolute;
+        padding-left: 50px;
+        bottom: 10px;
+        top: 10px;
+        
+    }
+
+}
+.containerone{
+    position:relative;
+    width:300px;
+    background-color: rgb(11, 11, 11);
+    color:rgb(252, 244, 244);
+    margin-left: 60px;
+    margin-top: 50px;
+   
+    border-radius: 6px;
+    transition: background 0.5s,transforms 0.5s;
+}
+.containerone .title{
+    padding-left:10px;
+    padding-top:10px;
+    h3{
+        padding-top:5 px;
+    }
+}
+.containerone:hover{
+    background-color: rgb(253, 247, 248);
+    color:rgb(249, 245, 245);
+    transform: translateY(-10px);
+}
+
+.containertwo{
+    position:relative;
+    padding-top: 20px;
+    bottom:220px;
+    width:300px;
+    background-color: rgb(11, 11, 11);
+    color:rgb(252, 246, 246);
+    margin-left: 420px;
+    margin-top: 40px;
+    border-radius: 6px;
+    transition: background 0.5s,transforms 0.5s;
+}
+.containertwo .title{
+    padding-left:10px;
+    padding-top:10px;
+    h3{
+        padding-top:5 px;
+    }
+}
+.containertwo:hover{
+    background-color: rgb(253, 247, 248);
+    color:rgb(249, 241, 241);
+    transform: translateY(-10px);
+}
+
+.containerthree{
+    position:relative;
+    bottom:430px;
+    width:300px;
+    padding-top: 40px;
+    padding-bottom:20px ;
+    padding-left:10px;
+    background-color: rgb(11, 11, 11);
+    color:rgb(254, 248, 248);
+    margin-left: 800px;
+    margin-top: 40px;
+    border-radius: 6px;
+    transition: background 0.5s,transforms 0.5s;
+}
+.containerthree.title{
+    padding-left:10px;
+    padding-top:20px;
+    h3{
+        padding-top:40px;
+        padding-bottom: 30px;
+    }
+    
+}
+.containerthree:hover{
+    background-color:rgb(249, 241, 241);
+    color:rgb(10, 9, 9);
+    transform: translateY(-10px);
+}
+#contact{
+    position:relative;
+    bottom:300px;
+}
+form{
+    position:relative;
+    left:600px;
+    bottom:80px;
+}
+.contact-left{
+    padding-left: 160px;
+    
+}
+.icons{
+    padding-left:6px;
+    padding-top:8px;
+}
+.socialicons{
+    padding-right: 12px;
+    
+}
+.name{
+    position:relative;
+    width:400px;
+    bottom: 40px;
+    padding:10px;
+}
+.email{
+    position:relative;
+    margin-top:10px;
+    width:400px;
+    bottom: 40px;
+    padding:10px;
+}
+.message{
+    position:relative;
+    margin-top:10px;
+    width:400px;
+    bottom: 40px;
+    padding:10px;
+}
+.button{
+    position:relative;
+    bottom:28px;
+    width:100px;
+    text-align: center;
+    padding:10px ;
+    background-color: deeppink;
+    color:black;
+    border-radius: 15px;
+}
+.copy{
+    position: absolute;
+    top: 250%;
+    padding-left:520px;
+}
